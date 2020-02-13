@@ -1,4 +1,4 @@
 # Swift Fundamental
 Learn about fundamental of Swift
 
-Materials : dicoding.com/academies/145
+Materials : https://www.dicoding.com/academies/145/tutorials/5972
