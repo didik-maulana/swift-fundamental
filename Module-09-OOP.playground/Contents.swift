@@ -353,12 +353,14 @@ struct Stack<T>: Container {
     }
 }
 
-var dicoding = Stack<String>()
-dicoding.push("Hello")
-print(dicoding.items)
-dicoding.push("World")
-print(dicoding.items)
-dicoding.push("Test")
-print(dicoding.items)
-dicoding.pop()
-print(dicoding.items)
+class Person {
+    let name: String
+    init(name: String) { self.name = name; print("\(name) is being initialized") }
+    deinit { print("\(name) is being deinitialized") }
+}
+var reference1: Person? = Person(name: "Dicoding indonesia")
+var reference2: Person? = reference1
+var reference3: Person? = reference1
+reference1 = nil
+reference2 = nil
+reference3 = nil
