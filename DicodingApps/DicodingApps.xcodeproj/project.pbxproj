@@ -13,6 +13,10 @@
 		0024ACD2244B508200CA0A54 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0024ACD0244B508200CA0A54 /* Main.storyboard */; };
 		0024ACD4244B508400CA0A54 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0024ACD3244B508400CA0A54 /* Assets.xcassets */; };
 		0024ACD7244B508400CA0A54 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0024ACD5244B508400CA0A54 /* LaunchScreen.storyboard */; };
+		00E38F1F244F470100022808 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00E38F1E244F470100022808 /* DetailViewController.swift */; };
+		00E38F21244F470C00022808 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00E38F20244F470C00022808 /* ProfileViewController.swift */; };
+		00E38F23244F471500022808 /* AcademiesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00E38F22244F471500022808 /* AcademiesViewController.swift */; };
+		00E38F26244F475800022808 /* ChallengesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00E38F25244F475800022808 /* ChallengesViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +28,10 @@
 		0024ACD3244B508400CA0A54 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0024ACD6244B508400CA0A54 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0024ACD8244B508400CA0A54 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		00E38F1E244F470100022808 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		00E38F20244F470C00022808 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		00E38F22244F471500022808 /* AcademiesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AcademiesViewController.swift; sourceTree = "<group>"; };
+		00E38F25244F475800022808 /* ChallengesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChallengesViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +64,27 @@
 		0024ACC9244B508200CA0A54 /* DicodingApps */ = {
 			isa = PBXGroup;
 			children = (
+				00E38F24244F473D00022808 /* Controller */,
 				0024ACCA244B508200CA0A54 /* AppDelegate.swift */,
 				0024ACCC244B508200CA0A54 /* SceneDelegate.swift */,
-				0024ACCE244B508200CA0A54 /* ViewController.swift */,
 				0024ACD0244B508200CA0A54 /* Main.storyboard */,
 				0024ACD3244B508400CA0A54 /* Assets.xcassets */,
 				0024ACD5244B508400CA0A54 /* LaunchScreen.storyboard */,
 				0024ACD8244B508400CA0A54 /* Info.plist */,
 			);
 			path = DicodingApps;
+			sourceTree = "<group>";
+		};
+		00E38F24244F473D00022808 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				00E38F1E244F470100022808 /* DetailViewController.swift */,
+				00E38F20244F470C00022808 /* ProfileViewController.swift */,
+				00E38F22244F471500022808 /* AcademiesViewController.swift */,
+				0024ACCE244B508200CA0A54 /* ViewController.swift */,
+				00E38F25244F475800022808 /* ChallengesViewController.swift */,
+			);
+			path = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -140,7 +160,11 @@
 			files = (
 				0024ACCF244B508200CA0A54 /* ViewController.swift in Sources */,
 				0024ACCB244B508200CA0A54 /* AppDelegate.swift in Sources */,
+				00E38F26244F475800022808 /* ChallengesViewController.swift in Sources */,
+				00E38F21244F470C00022808 /* ProfileViewController.swift in Sources */,
 				0024ACCD244B508200CA0A54 /* SceneDelegate.swift in Sources */,
+				00E38F1F244F470100022808 /* DetailViewController.swift in Sources */,
+				00E38F23244F471500022808 /* AcademiesViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
